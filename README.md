@@ -8,7 +8,6 @@ How do sentiment analysis, social network analysis, and web analytics metrics co
 
 Diagram 1: Comparison of Sentiment Analysis Results Between Azure and Textblob
 
-
 <img width="452" alt="image" src="https://github.com/user-attachments/assets/3fe75976-f21c-4350-b9c6-b7fec4f139c6">
 
 In terms of positive sentiment, Azure classifies a substantial 81.48% of the tweets as positive, in contrast to Textblob's 62.00%. This suggests that Azure might tend to overestimate positive sentiment or interpret a broader range of tweets as positive compared to Textblob. To determine which method is more accurate for sentiment analysis, we must consider the context and the coverage of the lexicons used by both methods. The accuracy of these models was initially calculated based on the presence of words in the respective lexicons. Textblob's higher identification of neutral tweets suggests better handling of ambiguous or less emotionally charged content, potentially offering a more balanced sentiment analysis. Conversely, Azure's higher positive sentiment classification might indicate an overestimation of positive content or a different interpretation framework.
@@ -30,7 +29,6 @@ The network reveals a directed graph comprising 692 vertices and 812 edges, with
 Diagram 4: Top 5 Vertex for Out-Degree
 
 <img width="452" alt="image" src="https://github.com/user-attachments/assets/6f7f9864-dcb1-417c-a85f-11b576150d9d">
-
 
 The top 5 vertices with the highest out-degree. @Ubisoft has the highest out-degree in the network at 486, indicating it interacts with 486 nodes. It also has the highest betweenness centrality at 235,710, playing a crucial role as a connector. @Ubisoft's closeness centrality is 0.002, suggesting it is relatively close to other nodes. With a high PageRank score of 223.838, @Ubisoft is highly influential, though its neighbors are not necessarily influential. The absence of clustering coefficient and reciprocated vertex pair ratio values (both 0) indicates @Ubisoft does not engage in mutual interactions with other nodes. 
 
