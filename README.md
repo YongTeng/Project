@@ -1,4 +1,4 @@
-**Research Objective**
+**Research Objective**< br / >
 To conduct a comprehensive analysis encompassing sentiment analysis, social network analysis, and web analytics on 812 tweets related to Ubisoft, focusing on key web metrics comparison, sentiment categorization, and social network visualization. Additionally, to evaluate the effectiveness of Ubisoft's SEO strategies, interactivity features, and mobile optimization compared to a competitor, aiming to provide insights into user engagement and perceptions across different online platforms.
 
 **Research Question**
